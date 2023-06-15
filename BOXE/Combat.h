@@ -48,7 +48,7 @@ public:
         return vainqueur;
     }
 
-    Boxeur* DesignerVainqueur(std::string couleurCoin) {
+    Boxeur* designerVainqueur(const std::string& couleurCoin) {
         if (couleurCoin == "bleu") {
             vainqueur = coinBleu;
         }
@@ -62,3 +62,4 @@ public:
         return vainqueur;
     }
 };
+
